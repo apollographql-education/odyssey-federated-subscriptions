@@ -1,8 +1,5 @@
 extend schema
-  @link(
-    url: "https://specs.apollo.dev/federation/v2.7"
-    import: ["@key", "@shareable", "@inaccessible"]
-  )
+  @link(url: "https://specs.apollo.dev/federation/v2.8", import: ["@key"])
 
 type Query {
   user(id: ID!): User
